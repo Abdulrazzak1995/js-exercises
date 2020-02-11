@@ -9,9 +9,17 @@
 
   As a learning exercise (you wouldn't do this normally), do all of the above in 1 line of code 
 */
+function piping(startingValue){
+startingValue = multiply(startingValue, 2);
+startingValue = add(startingValue, 10);
+startingValue = format (startingValue);
+return startingValue;
+}
+
+
 
 var startingValue = 5;
-
+var result = piping(startingValue);
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
 
