@@ -7,7 +7,8 @@
 */
 
 function negativeOrPositive(number) {
-
+let res = Math.sign(number);
+return res >= 0 ?"Positive" : "negative"
 }
 
 /* 

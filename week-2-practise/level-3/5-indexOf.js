@@ -6,7 +6,10 @@
 // - return a new array with the replacement value inserted
 
 function replace(arr, valueToReplace, newValue) {
-  return; // complete this statement
+  let index = arr.indexOf(valueToReplace);
+  newArr = arr.map(x => x);
+  newArr[index] = newValue;
+  return newArr; // complete this statement
 }
 
 /* 

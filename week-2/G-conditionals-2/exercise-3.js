@@ -9,7 +9,7 @@
 */
 
 function calculateGrade(mark) {
-
+return mark > 80 ? "A" : (mark > 60  ? "B": "C")
 }
 
 /* 
