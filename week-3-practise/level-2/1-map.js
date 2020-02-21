@@ -11,8 +11,17 @@ var londonLocations = [
   ["Tower bridge", "tube", "bus"],
   ["Greenwich", "tube", "bus", "river boat"]
 ];
+//question question question i didn't understand why we always use () open ..
+var newArr = [] ;
+var locationsByBoat = londonLocations.map(
+function (subarray){
+return subarray.map(
+  function (strValue){
+    strValue.includes("boat") ? newArr.push(subarray[0]) :"";
+  });
+}
+);
 
-var locationsByBoat;
 
 console.log(locationsByBoat);
 

@@ -8,7 +8,21 @@
 */
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+arr.forEach(function(value, index){
 
+
+  if((value % 3 ===0 )&& (value %5 ===0)){
+    return;
+  }
+  else if((value %3 ===0)){
+    return;
+  }
+  else if(value%5 ===0){
+    return;
+  }else{
+    return;
+  }
+});
 /* EXPECTED OUTPUT */
 
 /*
